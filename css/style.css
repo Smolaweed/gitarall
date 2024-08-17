@@ -1,0 +1,1512 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../обучение IT/что то/src/sass/normalizez.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../обучение IT/что то/src/sass/normalizez.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../обучение IT/что то/src/sass/normalizez.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../обучение IT/что то/src/sass/normalizez.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../обучение IT/что то/src/sass/normalizez.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../обучение IT/что то/src/sass/normalizez.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../обучение IT/что то/src/sass/normalizez.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../обучение IT/что то/src/sass/normalizez.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../обучение IT/что то/src/sass/normalizez.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../обучение IT/что то/src/sass/normalizez.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../обучение IT/что то/src/sass/normalizez.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../обучение IT/что то/src/sass/normalizez.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../обучение IT/что то/src/sass/normalizez.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../обучение IT/что то/src/sass/normalizez.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../обучение IT/что то/src/sass/normalizez.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../обучение IT/что то/src/sass/normalizez.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../обучение IT/что то/src/sass/normalizez.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../обучение IT/что то/src/sass/normalizez.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../обучение IT/что то/src/sass/normalizez.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../обучение IT/что то/src/sass/normalizez.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../обучение IT/что то/src/sass/normalizez.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../обучение IT/что то/src/sass/normalizez.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../обучение IT/что то/src/sass/normalizez.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../обучение IT/что то/src/sass/normalizez.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../обучение IT/что то/src/sass/normalizez.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../обучение IT/что то/src/sass/normalizez.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../обучение IT/что то/src/sass/normalizez.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../обучение IT/что то/src/sass/normalizez.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../обучение IT/что то/src/sass/normalizez.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../обучение IT/что то/src/sass/normalizez.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../обучение IT/что то/src/sass/normalizez.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../обучение IT/что то/src/sass/normalizez.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../обучение IT/что то/src/sass/normalizez.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../обучение IT/что то/src/sass/normalizez.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../обучение IT/что то/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../обучение IT/что то/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../обучение IT/что то/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../обучение IT/что то/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../обучение IT/что то/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../обучение IT/что то/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../обучение IT/что то/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../обучение IT/что то/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../обучение IT/что то/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../font/Montserrat-Regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../font/Montserrat-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 19, ../обучение IT/что то/src/sass/style.sass */
+html {
+  font-family: "MontserratT";
+  font-weight: regular;
+}
+
+/* line 26, ../обучение IT/что то/src/sass/style.sass */
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 31, ../обучение IT/что то/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 803px;
+  background: #DFDBCF;
+  padding-top: 7px;
+  overflow: hidden;
+}
+
+/* line 37, ../обучение IT/что то/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 108px;
+  align-items: center;
+}
+
+/* line 43, ../обучение IT/что то/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 47, ../обучение IT/что то/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 115px;
+  right: 275px;
+}
+
+/* line 51, ../обучение IT/что то/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
+
+/* line 58, ../обучение IT/что то/src/sass/style.sass */
+.nav-menu__list {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 62, ../обучение IT/что то/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 86px;
+  font-size: 16px;
+}
+
+/* line 65, ../обучение IT/что то/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 67, ../обучение IT/что то/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 72, ../обучение IT/что то/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 74, ../обучение IT/что то/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 77, ../обучение IT/что то/src/sass/style.sass */
+.left-wrapper__reaactangle-red {
+  position: absolute;
+  top: 170px;
+  left: -75px;
+  width: 610px;
+  height: 220px;
+  background: #6E1D26;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-76deg);
+  z-index: 2;
+}
+
+/* line 88, ../обучение IT/что то/src/sass/style.sass */
+.left-wrapper__reaactangle-green {
+  position: absolute;
+  top: 190px;
+  left: -27px;
+  width: 630px;
+  height: 220px;
+  background: #69816B;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-58deg);
+  z-index: 3;
+}
+
+/* line 99, ../обучение IT/что то/src/sass/style.sass */
+.left-wrapper__reaactangle-grey {
+  position: absolute;
+  top: 210px;
+  left: 35px;
+  width: 620px;
+  height: 218px;
+  background: #696868;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-46deg);
+  z-index: 1;
+}
+
+/* line 111, ../обучение IT/что то/src/sass/style.sass */
+.right-wrapper {
+  width: 406px;
+  position: absolute;
+  top: 90px;
+  right: -55px;
+  z-index: 1;
+}
+
+/* line 117, ../обучение IT/что то/src/sass/style.sass */
+.right-wrapper__icons-box {
+  padding-left: 147px;
+}
+
+/* line 119, ../обучение IT/что то/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* line 122, ../обучение IT/что то/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-left: -25px;
+  margin-bottom: 20px;
+}
+
+/* line 127, ../обучение IT/что то/src/sass/style.sass */
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 130, ../обучение IT/что то/src/sass/style.sass */
+.icons__item {
+  margin-right: 10px;
+}
+
+/* line 132, ../обучение IT/что то/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 135, ../обучение IT/что то/src/sass/style.sass */
+.title {
+  font-size: 72px;
+}
+
+/* line 138, ../обучение IT/что то/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 140, ../обучение IT/что то/src/sass/style.sass */
+.buttons__main-btn {
+  width: 206px;
+  height: 67px;
+  background-color: #69816B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+
+/* line 150, ../обучение IT/что то/src/sass/style.sass */
+.elipse {
+  width: 107px;
+  height: 107px;
+  background: linear-gradient(180deg, #69816b, rgba(105, 129, 107, 0.4));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 159, ../обучение IT/что то/src/sass/style.sass */
+.elipse_dig {
+  width: 223px;
+  height: 223px;
+}
+
+/* line 162, ../обучение IT/что то/src/sass/style.sass */
+.elipse__subtract {
+  width: 78px;
+  height: 78px;
+  background: #DFDBCF;
+  border-radius: 150px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 168, ../обучение IT/что то/src/sass/style.sass */
+.elipse__subtract_big {
+  width: 162px;
+  height: 162px;
+}
+
+/* line 172, ../обучение IT/что то/src/sass/style.sass */
+.second-section {
+  overflow: hidden;
+  min-height: 800px;
+  background: #dfdbcf;
+}
+
+/* line 176, ../обучение IT/что то/src/sass/style.sass */
+.second-section__container {
+  position: relative;
+  padding-top: 34px;
+}
+
+/* line 179, ../обучение IT/что то/src/sass/style.sass */
+.second-section__title {
+  margin-bottom: 70px;
+  font-weight: bold;
+}
+
+/* line 182, ../обучение IT/что то/src/sass/style.sass */
+.second-section__cards-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+/* line 186, ../обучение IT/что то/src/sass/style.sass */
+.second-section__cards-item {
+  margin-right: 30px;
+  z-index: 1;
+}
+
+/* line 189, ../обучение IT/что то/src/sass/style.sass */
+.second-section__cards-item:last-child {
+  margin-right: 0;
+}
+
+/* line 191, ../обучение IT/что то/src/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 194, ../обучение IT/что то/src/sass/style.sass */
+.second-section__icons-item {
+  margin-right: 70px;
+}
+
+/* line 196, ../обучение IT/что то/src/sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0;
+}
+
+/* line 198, ../обучение IT/что то/src/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 70px;
+  right: -85px;
+  z-index: 0;
+  background: linear-gradient(0deg, #6e1d26, rgba(110, 29, 38, 0.4));
+}
+
+/* line 204, ../обучение IT/что то/src/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 313px;
+  left: -110px;
+  z-index: 0;
+  background: linear-gradient(180deg, #696868, rgba(105, 104, 104, 0.4));
+}
+
+/* line 211, ../обучение IT/что то/src/sass/style.sass */
+.cards-item {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  background-color: #696868;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: flex-end;
+}
+
+/* line 220, ../обучение IT/что то/src/sass/style.sass */
+.cards-item__img {
+  height: 310px;
+  width: 180px;
+}
+
+/* line 223, ../обучение IT/что то/src/sass/style.sass */
+.cards-item__text {
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 140px;
+  right: 10px;
+}
+
+/* line 231, ../обучение IT/что то/src/sass/style.sass */
+.cards-item_green {
+  background-color: #69816B;
+}
+
+/* line 233, ../обучение IT/что то/src/sass/style.sass */
+.cards-item_green_text {
+  top: 170px;
+}
+
+/* line 236, ../обучение IT/что то/src/sass/style.sass */
+.cards-item_red {
+  background-color: #6E1D26;
+}
+
+/* line 239, ../обучение IT/что то/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 242, ../обучение IT/что то/src/sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 91px;
+}
+
+/* line 245, ../обучение IT/что то/src/sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 247, ../обучение IT/что то/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* line 251, ../обучение IT/что то/src/sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 800px;
+  background: #dfdbcf;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* line 257, ../обучение IT/что то/src/sass/style.sass */
+.third-section__container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-top: 34px;
+}
+
+/* line 265, ../обучение IT/что то/src/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 530px;
+}
+
+/* line 267, ../обучение IT/что то/src/sass/style.sass */
+.third-section__title {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+/* line 270, ../обучение IT/что то/src/sass/style.sass */
+.third-section__text {
+  font-size: 18;
+  margin-bottom: 34px;
+}
+
+/* line 273, ../обучение IT/что то/src/sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 60px;
+  right: 750px;
+  z-index: -1;
+}
+
+/* line 278, ../обучение IT/что то/src/sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+}
+
+/* line 283, ../обучение IT/что то/src/sass/style.sass */
+.footer {
+  background: #dfdbcf;
+}
+
+/* line 285, ../обучение IT/что то/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+
+/* line 289, ../обучение IT/что то/src/sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 294, ../обучение IT/что то/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 1199px) {
+  /* line 299, ../обучение IT/что то/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 301, ../обучение IT/что то/src/sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 304, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper img {
+    width: 750px;
+  }
+  /* line 306, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-red {
+    width: 590px;
+  }
+  /* line 308, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-green {
+    width: 610px;
+  }
+  /* line 310, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-grey {
+    width: 590px;
+  }
+  /* line 312, ../обучение IT/что то/src/sass/style.sass */
+  .right-wrapper {
+    right: -50px;
+  }
+  /* line 314, ../обучение IT/что то/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 550px;
+  }
+  /* line 316, ../обучение IT/что то/src/sass/style.sass */
+  .second-section {
+    min-height: 700px;
+  }
+  /* line 318, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__card-box {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 321, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__icons-item {
+    margin-right: 10px;
+  }
+  /* line 323, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item {
+    width: 300px;
+    height: 300px;
+  }
+  /* line 326, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item__img {
+    height: 270px;
+  }
+  /* line 328, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 30px;
+    top: 120px;
+  }
+  /* line 332, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 160px;
+  }
+  /* line 334, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__figure {
+    right: 600px;
+    top: 80px;
+  }
+  /* line 337, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__title {
+    margin-right: 30px;
+  }
+  /* line 340, ../обучение IT/что то/src/sass/style.sass */
+  .footer__img {
+    width: 650px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 345, ../обучение IT/что то/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 347, ../обучение IT/что то/src/sass/style.sass */
+  .title {
+    font-size: 60px;
+  }
+  /* line 349, ../обучение IT/что то/src/sass/style.sass */
+  .main-section {
+    min-height: 600px;
+  }
+  /* line 351, ../обучение IT/что то/src/sass/style.sass */
+  .main-section__logo {
+    width: 150px;
+  }
+  /* line 353, ../обучение IT/что то/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 76px;
+    right: 233px;
+  }
+  /* line 356, ../обучение IT/что то/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 490px;
+  }
+  /* line 359, ../обучение IT/что то/src/sass/style.sass */
+  .elipse {
+    width: 90px;
+    height: 90px;
+  }
+  /* line 362, ../обучение IT/что то/src/sass/style.sass */
+  .elipse__subtract {
+    width: 70px;
+    height: 70px;
+  }
+  /* line 365, ../обучение IT/что то/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 135px;
+    height: 135px;
+  }
+  /* line 369, ../обучение IT/что то/src/sass/style.sass */
+  .elipse_dig {
+    width: 180px;
+    height: 180px;
+  }
+  /* line 373, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper img {
+    width: 550px;
+  }
+  /* line 375, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-red {
+    width: 440px;
+    height: 150px;
+    top: 149px;
+    left: -97px;
+  }
+  /* line 380, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-green {
+    width: 450px;
+    height: 150px;
+    top: 161px;
+    left: -58px;
+  }
+  /* line 385, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-grey {
+    width: 430px;
+    height: 150px;
+    top: 180px;
+    left: -10px;
+  }
+  /* line 390, ../обучение IT/что то/src/sass/style.sass */
+  .right-wrapper {
+    width: 320px;
+    right: -20px;
+    top: 50px;
+  }
+  /* line 394, ../обучение IT/что то/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 15px;
+    margin-bottom: 13px;
+  }
+  /* line 397, ../обучение IT/что то/src/sass/style.sass */
+  .second-section {
+    min-height: 500px;
+  }
+  /* line 399, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__container {
+    padding-top: 15px;
+  }
+  /* line 401, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__title {
+    margin-bottom: 40px;
+  }
+  /* line 403, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__cards-item {
+    margin-right: 15px;
+  }
+  /* line 405, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 210px;
+    left: -95px;
+  }
+  /* line 408, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item {
+    width: 230px;
+    height: 230px;
+  }
+  /* line 411, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item__img {
+    height: 200px;
+    width: 155px;
+  }
+  /* line 414, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 25px;
+    top: 95px;
+    right: -5px;
+  }
+  /* line 419, ../обучение IT/что то/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 15px;
+  }
+  /* line 421, ../обучение IT/что то/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 30px;
+  }
+  /* line 423, ../обучение IT/что то/src/sass/style.sass */
+  .icons-item__img {
+    margin-right: 15px;
+    width: 50px;
+  }
+  /* line 427, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__text {
+    font-size: 16px;
+  }
+  /* line 429, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 80px;
+  }
+  /* line 431, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__figure {
+    right: 405px;
+    top: 120px;
+  }
+  /* line 434, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__first-elipse {
+    right: -65px;
+    top: -90px;
+  }
+  /* line 438, ../обучение IT/что то/src/sass/style.sass */
+  .footer__img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 443, ../обучение IT/что то/src/sass/style.sass */
+  .container {
+    width: 550px;
+  }
+  /* line 445, ../обучение IT/что то/src/sass/style.sass */
+  .title {
+    font-size: 45px;
+  }
+  /* line 447, ../обучение IT/что то/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 50%;
+    background: linear-gradient(180deg, #69816b, rgba(105, 129, 107, 0.95));
+    z-index: 20;
+    transition: 0.7s;
+  }
+  /* line 456, ../обучение IT/что то/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  /* line 461, ../обучение IT/что то/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+  }
+  /* line 464, ../обучение IT/что то/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    z-index: 30;
+  }
+  /* line 471, ../обучение IT/что то/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 0.7s all;
+  }
+  /* line 478, ../обучение IT/что то/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 481, ../обучение IT/что то/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 483, ../обучение IT/что то/src/sass/style.sass */
+  .hamburger_active span:nth-last-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 485, ../обучение IT/что то/src/sass/style.sass */
+  .hamburger_active span:nth-last-child(2) {
+    display: none;
+  }
+  /* line 487, ../обучение IT/что то/src/sass/style.sass */
+  .hamburger_active span:nth-last-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 489, ../обучение IT/что то/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0;
+  }
+  /* line 492, ../обучение IT/что то/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 495, ../обучение IT/что то/src/sass/style.sass */
+  .elipse_dig {
+    width: 160px;
+    height: 160px;
+  }
+  /* line 498, ../обучение IT/что то/src/sass/style.sass */
+  .main-section {
+    min-height: 500px;
+  }
+  /* line 500, ../обучение IT/что то/src/sass/style.sass */
+  .main-section__logo {
+    width: 120px;
+  }
+  /* line 502, ../обучение IT/что то/src/sass/style.sass */
+  .main-section__first-elipse {
+    display: none;
+  }
+  /* line 504, ../обучение IT/что то/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 370px;
+  }
+  /* line 507, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper img {
+    width: 430px;
+  }
+  /* line 509, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-red {
+    width: 310px;
+    height: 90px;
+    top: 117px;
+    left: -35px;
+  }
+  /* line 514, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-green {
+    width: 330px;
+    height: 90px;
+    top: 124px;
+    left: -10px;
+  }
+  /* line 519, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-grey {
+    width: 320px;
+    height: 90px;
+    top: 147px;
+    left: 10px;
+  }
+  /* line 524, ../обучение IT/что то/src/sass/style.sass */
+  .right-wrapper {
+    width: 225px;
+    right: -10px;
+    top: -10px;
+  }
+  /* line 528, ../обучение IT/что то/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+  }
+  /* line 532, ../обучение IT/что то/src/sass/style.sass */
+  .icons {
+    justify-content: flex-end;
+  }
+  /* line 534, ../обучение IT/что то/src/sass/style.sass */
+  .buttons__main-btn {
+    width: 190px;
+    height: 55px;
+    font-size: 15px;
+  }
+  /* line 538, ../обучение IT/что то/src/sass/style.sass */
+  .second-section {
+    min-height: 450px;
+  }
+  /* line 540, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__container {
+    padding-top: 10px;
+  }
+  /* line 542, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__title {
+    margin-bottom: 30px;
+  }
+  /* line 544, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__cards-item {
+    margin-right: 10px;
+  }
+  /* line 546, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: 30px;
+  }
+  /* line 548, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 200px;
+    left: -55px;
+  }
+  /* line 551, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item {
+    width: 175px;
+    height: 230px;
+  }
+  /* line 554, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item__img {
+    height: 200px;
+    width: 130px;
+  }
+  /* line 557, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 22px;
+    top: 95px;
+    right: -15px;
+  }
+  /* line 561, ../обучение IT/что то/src/sass/style.sass */
+  .title-left {
+    display: none;
+  }
+  /* line 564, ../обучение IT/что то/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 10px;
+  }
+  /* line 566, ../обучение IT/что то/src/sass/style.sass */
+  .icons-item__img {
+    margin-right: 10px;
+    width: 40px;
+  }
+  /* line 569, ../обучение IT/что то/src/sass/style.sass */
+  .third-section {
+    min-height: 450px;
+  }
+  /* line 571, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__text {
+    margin-right: 80px;
+  }
+  /* line 573, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__figure {
+    right: 200px;
+    top: 20px;
+  }
+  /* line 577, ../обучение IT/что то/src/sass/style.sass */
+  .footer__img {
+    width: 415px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 581, ../обучение IT/что то/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+  /* line 583, ../обучение IT/что то/src/sass/style.sass */
+  .title {
+    font-size: 44px;
+  }
+  /* line 586, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper img {
+    display: none;
+  }
+  /* line 588, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-green {
+    display: none;
+  }
+  /* line 590, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-red {
+    display: none;
+  }
+  /* line 592, ../обучение IT/что то/src/sass/style.sass */
+  .left-wrapper__reaactangle-grey {
+    display: none;
+  }
+  /* line 594, ../обучение IT/что то/src/sass/style.sass */
+  .main-section {
+    min-height: 430px;
+  }
+  /* line 596, ../обучение IT/что то/src/sass/style.sass */
+  .main-section__logo {
+    width: 100px;
+  }
+  /* line 598, ../обучение IT/что то/src/sass/style.sass */
+  .main-section__first-elipse {
+    display: flex;
+    top: 20px;
+    right: 215px;
+  }
+  /* line 602, ../обучение IT/что то/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 320px;
+    right: -80px;
+  }
+  /* line 605, ../обучение IT/что то/src/sass/style.sass */
+  .right-wrapper {
+    position: static;
+    margin: auto;
+  }
+  /* line 608, ../обучение IT/что то/src/sass/style.sass */
+  .right-wrapper__text {
+    margin-bottom: 50px;
+  }
+  /* line 610, ../обучение IT/что то/src/sass/style.sass */
+  .icons {
+    justify-content: end;
+  }
+  /* line 613, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__title {
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+  /* line 616, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__cards-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 900px;
+  }
+  /* line 621, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__cards-item {
+    width: 280px;
+    height: 280px;
+  }
+  /* line 624, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__cards-item:last-child {
+    margin-left: -10px;
+  }
+  /* line 626, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__first-elipse {
+    top: 880px;
+    right: -30px;
+  }
+  /* line 629, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 50px;
+    left: -30px;
+  }
+  /* line 632, ../обучение IT/что то/src/sass/style.sass */
+  .second-section__icons-box {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 637, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item__img {
+    height: 260px;
+    width: 160px;
+  }
+  /* line 640, ../обучение IT/что то/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 30px;
+    width: 230px;
+    top: 110px;
+    right: -25px;
+  }
+  /* line 646, ../обучение IT/что то/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 16px;
+  }
+  /* line 648, ../обучение IT/что то/src/sass/style.sass */
+  .icons-item__text br {
+    display: none;
+  }
+  /* line 650, ../обучение IT/что то/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 23px;
+  }
+  /* line 652, ../обучение IT/что то/src/sass/style.sass */
+  .icons-box {
+    height: 200px;
+    justify-content: space-between;
+  }
+  /* line 656, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 20px;
+  }
+  /* line 658, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__text {
+    margin-right: 15px;
+  }
+  /* line 660, ../обучение IT/что то/src/sass/style.sass */
+  .third-section__figure {
+    right: 0px;
+    top: 205px;
+    width: 275px;
+  }
+  /* line 665, ../обучение IT/что то/src/sass/style.sass */
+  .footer__container {
+    justify-content: center;
+  }
+  /* line 667, ../обучение IT/что то/src/sass/style.sass */
+  .footer__img {
+    display: none;
+  }
+  /* line 669, ../обучение IT/что то/src/sass/style.sass */
+  .footer__title {
+    padding-left: 20px;
+  }
+  /* line 671, ../обучение IT/что то/src/sass/style.sass */
+  .footer__title br {
+    display: none;
+  }
+  /* line 674, ../обучение IT/что то/src/sass/style.sass */
+  .footer-wrapper__icons-box {
+    padding-left: 20px;
+    justify-content: start;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
